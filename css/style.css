@@ -219,14 +219,23 @@ textarea {
 .home-intro {
     position: relative;
     overflow: hidden;
-    background: url("../images/home-bg.png") center center / cover no-repeat;
+    background:
+        linear-gradient(rgba(255, 255, 255, 0.72), rgba(255, 255, 255, 0.72)),
+        url("../images/home-bg.png") center center / cover no-repeat;
     background-color: transparent;
     background-blend-mode: normal;
-    }
+}
 
 .home-intro > * {
     position: relative;
     z-index: 1;
+}
+
+.home-intro,
+.home-intro .home-title,
+.home-intro .home-subtitle,
+.home-intro .home-copy p {
+    color: #000000;
 }
 
 .home-title {
