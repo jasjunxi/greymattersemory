@@ -298,6 +298,29 @@ textarea {
     margin-bottom: 1.2rem;
 }
 
+.article-feature-image {
+    width: 100%;
+    margin-bottom: 1.6rem;
+    border: 1px solid rgba(49, 88, 166, 0.14);
+    box-shadow: var(--shadow-soft);
+}
+
+.references-block {
+    margin: 2.2rem 0 1.2rem;
+    padding-top: 1.4rem;
+    border-top: 1px solid rgba(49, 88, 166, 0.16);
+}
+
+.references-block h2 {
+    font-size: 1.7rem;
+    margin-bottom: 1rem;
+}
+
+.references-block p {
+    font-size: 0.98rem;
+    color: var(--text-light);
+}
+
 .home-section,
 .page-section {
     padding: 1rem 0 4.5rem;
@@ -415,8 +438,8 @@ textarea {
 
 .article-image-one {
     background:
-        linear-gradient(180deg, transparent, rgba(5, 5, 5, 0.48)),
-        linear-gradient(135deg, #5c77b0 0%, #29498f 60%, #d19a35 140%);
+        linear-gradient(180deg, transparent, rgba(5, 5, 5, 0.42)),
+        url("../images/article-fandom-cover.png") center center / cover no-repeat;
 }
 
 .article-image-two {
