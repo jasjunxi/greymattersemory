@@ -292,11 +292,6 @@ textarea {
     grid-template-columns: repeat(3, minmax(0, 1fr));
 }
 
-.home-process-grid {
-    grid-template-columns: repeat(3, minmax(0, 1fr));
-    margin-top: 0.5rem;
-}
-
 .home-feature-card,
 .process-step {
     background: var(--surface);
@@ -320,16 +315,6 @@ textarea {
 
 .home-process-section {
     margin-top: 3rem;
-}
-
-.process-number {
-    display: inline-block;
-    margin-bottom: 0.8rem;
-    color: var(--primary-dark);
-    font-family: "Mulish", "Segoe UI", sans-serif;
-    font-size: 0.88rem;
-    font-weight: 800;
-    letter-spacing: 0.08em;
 }
 
 .page-hero h1 {
