@@ -363,12 +363,32 @@ textarea {
     background:
         linear-gradient(180deg, transparent, rgba(5, 5, 5, 0.48)),
         linear-gradient(135deg, #4f6dae 0%, #263d74 55%, #d19a35 140%);
+    background-position: center;
+    background-size: cover;
     color: var(--white);
     font-family: "Inter", "Segoe UI", sans-serif;
     font-size: 1rem;
     font-weight: 700;
     letter-spacing: 0.04em;
     text-transform: uppercase;
+}
+
+.issue-cover-2021 {
+    background-image:
+        linear-gradient(180deg, transparent, rgba(5, 5, 5, 0.38)),
+        url("../images/fall-2021-cover.png");
+}
+
+.issue-cover-2022 {
+    background-image:
+        linear-gradient(180deg, transparent, rgba(5, 5, 5, 0.38)),
+        url("../images/fall-2022-cover.png");
+}
+
+.issue-cover-2025 {
+    background-image:
+        linear-gradient(180deg, transparent, rgba(5, 5, 5, 0.38)),
+        url("../images/fall-2025-cover.png");
 }
 
 .articles-header {
