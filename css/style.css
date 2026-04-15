@@ -15,7 +15,7 @@
     --max-width: 1160px;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arima+Madurai:wght@400;700&family=Mulish:wght@400;600;700;800&display=swap');
 
 * {
     margin: 0;
@@ -28,7 +28,7 @@ html {
 }
 
 body {
-    font-family: "Inter", "Segoe UI", sans-serif;
+    font-family: "Mulish", "Segoe UI", sans-serif;
     line-height: 1.7;
     color: var(--text);
     background:
@@ -89,7 +89,7 @@ textarea {
 .chapter-name,
 .contact-item h3,
 .notice-card h2 {
-    font-family: "Cormorant Garamond", Georgia, serif;
+    font-family: "Arima Madurai", serif;
     font-weight: 700;
     line-height: 1.08;
     letter-spacing: -0.02em;
@@ -144,7 +144,7 @@ textarea {
 
 .nav-group a {
     color: rgba(255, 255, 255, 0.82);
-    font-family: "Inter", "Segoe UI", sans-serif;
+    font-family: "Mulish", "Segoe UI", sans-serif;
     font-size: 0.96rem;
     font-weight: 600;
     letter-spacing: 0.02em;
@@ -389,7 +389,7 @@ textarea {
     background-position: center;
     background-size: cover;
     color: var(--white);
-    font-family: "Inter", "Segoe UI", sans-serif;
+    font-family: "Mulish", "Segoe UI", sans-serif;
     font-size: 1rem;
     font-weight: 700;
     letter-spacing: 0.04em;
@@ -429,7 +429,7 @@ textarea {
     display: flex;
     align-items: flex-end;
     color: var(--white);
-    font-family: "Inter", "Segoe UI", sans-serif;
+    font-family: "Mulish", "Segoe UI", sans-serif;
     font-size: 0.95rem;
     font-weight: 700;
     letter-spacing: 0.04em;
@@ -460,7 +460,7 @@ textarea {
 
 .article-kicker {
     color: var(--primary-dark);
-    font-family: "Inter", "Segoe UI", sans-serif;
+    font-family: "Mulish", "Segoe UI", sans-serif;
     font-size: 0.85rem;
     font-weight: 700;
     letter-spacing: 0.08em;
@@ -469,7 +469,7 @@ textarea {
 }
 
 .article-author {
-    font-family: "Inter", "Segoe UI", sans-serif;
+    font-family: "Mulish", "Segoe UI", sans-serif;
     font-size: 0.95rem;
     font-weight: 600;
     color: var(--text-light);
@@ -499,7 +499,7 @@ textarea {
 .chapter-link,
 .contact-item a {
     color: var(--primary-dark);
-    font-family: "Inter", "Segoe UI", sans-serif;
+    font-family: "Mulish", "Segoe UI", sans-serif;
     font-weight: 700;
 }
 
@@ -523,14 +523,14 @@ textarea {
         linear-gradient(180deg, transparent, rgba(5, 5, 5, 0.4)),
         linear-gradient(135deg, rgba(49, 88, 166, 0.95), rgba(231, 169, 55, 0.76));
     color: var(--white);
-    font-family: "Inter", "Segoe UI", sans-serif;
+    font-family: "Mulish", "Segoe UI", sans-serif;
     font-size: 1.6rem;
     font-weight: 700;
 }
 
 .member-role {
     color: var(--primary-dark);
-    font-family: "Inter", "Segoe UI", sans-serif;
+    font-family: "Mulish", "Segoe UI", sans-serif;
     font-size: 0.95rem;
     font-weight: 700;
     letter-spacing: 0.05em;
@@ -557,7 +557,7 @@ textarea {
     justify-content: center;
     background: linear-gradient(135deg, #29498f, #d19a35);
     color: var(--white);
-    font-family: "Inter", "Segoe UI", sans-serif;
+    font-family: "Mulish", "Segoe UI", sans-serif;
     font-size: 1rem;
     font-weight: 800;
     letter-spacing: 0.05em;
@@ -615,7 +615,7 @@ textarea {
 input,
 select,
 textarea {
-    font-family: "Inter", "Segoe UI", sans-serif;
+    font-family: "Mulish", "Segoe UI", sans-serif;
 }
 
 .notice-card p {
@@ -652,7 +652,7 @@ textarea {
 label {
     display: block;
     margin-bottom: 0.45rem;
-    font-family: "Inter", "Segoe UI", sans-serif;
+    font-family: "Mulish", "Segoe UI", sans-serif;
     font-size: 0.9rem;
     font-weight: 700;
     letter-spacing: 0.04em;
@@ -689,7 +689,7 @@ textarea {
     border: 0;
     background: linear-gradient(135deg, var(--primary-dark), var(--primary));
     color: var(--white);
-    font-family: "Inter", "Segoe UI", sans-serif;
+    font-family: "Mulish", "Segoe UI", sans-serif;
     font-weight: 700;
     letter-spacing: 0.04em;
     text-transform: uppercase;
@@ -748,7 +748,7 @@ textarea {
 }
 
 .keep-in-touch h3 {
-    font-family: "Inter", "Segoe UI", sans-serif;
+    font-family: "Mulish", "Segoe UI", sans-serif;
     font-size: 0.95rem;
     font-weight: 700;
     letter-spacing: 0.08em;
@@ -765,7 +765,7 @@ textarea {
 
 .social-link {
     color: rgba(255, 255, 255, 0.82);
-    font-family: "Inter", "Segoe UI", sans-serif;
+    font-family: "Lato", "Segoe UI", sans-serif;
     font-weight: 600;
     text-transform: uppercase;
     font-size: 0.92rem;
