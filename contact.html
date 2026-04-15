@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Grey Matters Emory</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <ul class="nav-group nav-group-left">
+                <li><a href="read.html">Read</a></li>
+                <li><a href="team.html">Team</a></li>
+                <li><a href="chapters.html">Chapters</a></li>
+            </ul>
+            <a href="index.html" class="logo" aria-label="Grey Matters home">
+                <img src="images/logo.png" alt="Grey Matters logo">
+            </a>
+            <ul class="nav-group nav-group-right">
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="apply.html">Apply</a></li>
+            </ul>
+            <button class="nav-toggle" type="button" aria-expanded="false" aria-label="Open navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <header class="page-header">
+        <div class="page-hero" data-reveal>
+            <h1>Contact</h1>
+            <p>Have a question, idea, or collaboration request? We'd love to hear from you. Fill out the form below and our team will get back to you as soon as possible.</p>
+        </div>
+    </header>
+
+    <main class="page-section">
+        <section class="container">
+            <div class="contact-info">
+                <article class="contact-item" data-reveal>
+                    <h3>Email</h3>
+                    <p><a href="mailto:sahithi.challam@emory.edu">sahithi.challam@emory.edu</a></p>
+                </article>
+                <article class="contact-item" data-reveal>
+                    <h3>Instagram</h3>
+                    <p><a href="https://www.instagram.com/greymatters.emory/" target="_blank" rel="noreferrer">@greymatters.emory</a></p>
+                </article>
+            </div>
+
+            <div class="form-container" data-reveal>
+                <iframe name="hidden_iframe" id="hidden_iframe" class="hidden-frame" title="Hidden form submission target"></iframe>
+                <form id="contact-form" action="https://docs.google.com/forms/d/e/1FAIpQLSfUHk8kfA7hVsgON0UnXTVaY4qpNt3F7rtmi-s5iwp2UpF8bg/formResponse" method="POST" target="hidden_iframe">
+                    <div class="form-grid">
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="entry.1312659078" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="entry.723040435" required>
+                        </div>
+                        <div class="form-group full-width">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="entry.545928330" required></textarea>
+                        </div>
+                        <div class="form-group full-width">
+                            <button type="submit" class="submit-btn">Send message</button>
+                        </div>
+                    </div>
+                </form>
+                <div id="contact-success" class="notice-card form-success" hidden>
+                    <h2>Thank you for your message!</h2>
+                    <p>We've received your submission and will get back to you as soon as possible.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-inner">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <img src="images/logo.png" alt="Grey Matters logo" class="circle-logo">
+                </div>
+                <div class="keep-in-touch">
+                    <h3>Keep in Touch!</h3>
+                    <div class="footer-links">
+                        <a href="https://www.instagram.com/greymatters.emory/" target="_blank" rel="noreferrer" class="social-link">Instagram</a>
+                        <a href="mailto:sahithi.challam@emory.edu" class="social-link">Contact</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; <span data-year></span> Grey Matters Journal. All rights reserved.</p>
+                <p>Emory University</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
