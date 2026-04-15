@@ -233,16 +233,28 @@ textarea {
 
 .home-intro,
 .home-intro .home-title,
+.home-intro .home-tagline,
 .home-intro .home-subtitle,
 .home-intro .home-copy p {
     color: #000000;
 }
 
 .home-title {
-    font-size: clamp(1.8rem, 3.6vw, 2.8rem);
+    font-size: clamp(2rem, 4vw, 3.2rem);
     max-width: none;
     white-space: nowrap;
-    margin: 1rem 0 1.2rem;
+    margin: 1rem 0 0.45rem;
+}
+
+.home-tagline {
+    font-family: "Cormorant Garamond", Georgia, serif;
+    font-size: clamp(1.15rem, 2vw, 1.55rem);
+    font-weight: 700;
+    line-height: 1.15;
+    letter-spacing: -0.02em;
+    max-width: none;
+    white-space: nowrap;
+    margin-bottom: 1.1rem;
 }
 
 .home-subtitle {
