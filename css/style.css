@@ -83,7 +83,12 @@ textarea {
 
 .section-header h2,
 .page-hero h1,
-.home-title {
+.home-title,
+.issue-card h3,
+.team-member h3,
+.chapter-name,
+.contact-item h3,
+.notice-card h2 {
     font-family: "Cormorant Garamond", Georgia, serif;
     font-weight: 700;
     line-height: 1.08;
@@ -214,10 +219,10 @@ textarea {
 .home-intro {
     position: relative;
     overflow: hidden;
-    background:
-        linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)),
-        url("../images/home-bg.png") center center / cover no-repeat;
-}
+    background: url("../images/home-bg.png") center center / cover no-repeat;
+    background-color: transparent;
+    background-blend-mode: normal;
+    }
 
 .home-intro > * {
     position: relative;
@@ -225,8 +230,9 @@ textarea {
 }
 
 .home-title {
-    font-size: clamp(2.3rem, 5vw, 4.6rem);
-    max-width: 12ch;
+    font-size: clamp(1.8rem, 3.6vw, 2.8rem);
+    max-width: none;
+    white-space: nowrap;
     margin: 1rem 0 1.2rem;
 }
 
@@ -248,7 +254,7 @@ textarea {
 }
 
 .page-hero h1 {
-    font-size: clamp(2rem, 4.5vw, 3.75rem);
+    font-size: clamp(1.8rem, 3.6vw, 2.8rem);
     margin: 1rem 0 0.8rem;
 }
 
@@ -320,7 +326,7 @@ textarea {
 .chapter-name,
 .contact-item h3 {
     margin: 1rem 0 0.45rem;
-    font-size: 1.28rem;
+    font-size: 1.5rem;
     line-height: 1.2;
 }
 
@@ -416,9 +422,27 @@ textarea {
 }
 
 .notice-card h2 {
-    font-size: clamp(1.8rem, 4vw, 2.5rem);
+    font-size: clamp(1.7rem, 3.4vw, 2.2rem);
     margin-bottom: 0.9rem;
     line-height: 1.15;
+}
+
+.home-subtitle,
+.home-copy p,
+.section-header p,
+.page-intro p,
+.page-hero p,
+.issue-card p,
+.member-bio,
+.founding-statement p,
+.contact-item p,
+.notice-card p,
+.footer-bottom,
+.footer-brand p,
+input,
+select,
+textarea {
+    font-family: "Inter", "Segoe UI", sans-serif;
 }
 
 .notice-card p {
