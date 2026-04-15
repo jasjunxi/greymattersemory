@@ -468,6 +468,14 @@ textarea {
     margin-bottom: 0.55rem;
 }
 
+.article-author {
+    font-family: "Inter", "Segoe UI", sans-serif;
+    font-size: 0.95rem;
+    font-weight: 600;
+    color: var(--text-light);
+    margin-bottom: 0.65rem;
+}
+
 .article-card h3 {
     margin-bottom: 0.5rem;
     font-size: 1.5rem;
