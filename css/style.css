@@ -493,8 +493,14 @@ textarea {
 
 .article-image-three {
     background:
-        linear-gradient(180deg, transparent, rgba(5, 5, 5, 0.48)),
-        linear-gradient(135deg, #3f5b8e 0%, #243d73 55%, #e0aa52 140%);
+        linear-gradient(180deg, transparent, rgba(5, 5, 5, 0.42)),
+        url("../images/article-sign-art.png") center center / cover no-repeat;
+}
+
+.article-image-four {
+    background:
+        linear-gradient(180deg, transparent, rgba(5, 5, 5, 0.42)),
+        url("../images/article-nyneishia-art.png") center center / cover no-repeat;
 }
 
 .article-card-body {
