@@ -487,8 +487,8 @@ textarea {
 
 .article-image-two {
     background:
-        linear-gradient(180deg, transparent, rgba(5, 5, 5, 0.48)),
-        linear-gradient(135deg, #7e91bb 0%, #425a94 55%, #c08b3d 140%);
+        linear-gradient(180deg, transparent, rgba(5, 5, 5, 0.42)),
+        url("../images/article-connection-art.png") center center / cover no-repeat;
 }
 
 .article-image-three {
